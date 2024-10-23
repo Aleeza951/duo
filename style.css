@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{text-decoration: none; color: white}
+
+header{
+    background-color: rgb(55, 189, 155);
+    color: white;
+    padding-bottom: 3.5rem;
+}
+.perfil{
+    display: block;
+    margin: auto;
+    height: 8rem;
+    padding-top: 2rem;
+    max-width: 100%;
+}
+tittle{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.port, about{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.estrella{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+h2{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.port{
+    margin-top: 2rem;
+}
+.activ{
+    text-align: center;
+}
+.hobbi{
+    width: 15%;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+}
+ main {
+    background-color: rgb(55, 189, 155);
+    color: white;
+ }
+ 
