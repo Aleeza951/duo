@@ -22,7 +22,7 @@ tittle{
     justify-content: center;
     font-weight: bold;
 }
-.port, about{
+.cabeza{
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -44,6 +44,7 @@ h2{
 }
 .activ{
     text-align: center;
+    margin-bottom: 2rem;
 }
 .hobbi{
     width: 15%;
@@ -54,4 +55,48 @@ h2{
     background-color: rgb(55, 189, 155);
     color: white;
  }
- 
+ main > div {
+    display: flex;
+    justify-content: center;
+ }
+main > div >p{
+    width: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.download{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: 0.2rem solid white;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+form{
+    width: 70%;
+    max-width: 50%;
+    min-width: 20%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+label{
+ display: block;
+ margin: 0.5rem;
+}
+input, textarea{
+    width: 100%;
+    min-height: 3rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+textarea{
+    min-width: 5rem;
+}
+button{
+    color: white;
+    background-color: rgb(55, 189, 155);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+}
