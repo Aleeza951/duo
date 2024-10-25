@@ -7,15 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <fieldset class="front">
+        <div>
+            <h5>START BOOTSTRAP</h5>
+        </div>
+        <div>
+            <a href="$">PORTFOLO</a>
+            <a href="$">ABOUT</a>
+            <a href="$">CONTACT</a>
+        </div>
+    </fieldset>
     <header>
         <img class="perfil" src="img/avataaars.svg">
         <tittle>Start Bootstrap</tittle>
-        <h1 class="estrella">&#9733;</h1>
+        <div class="sep">
+            <div class="line2"></div>
+            <p class="estrella">&#9733;</p>
+            <div class="line2"></div>
+        </div>
         <h2>Graphic Artist - Web Desinger - Illustrator</h2>
     </header>
     <nav>
         <h1 class="cabeza">PORTFOLIO</h1>
-        <h2 class="estrella">&#9733;</h2>
+        <div class="sep">
+            <div class="line"></div>
+            <p class="estrella">&#9733;</p>
+            <div class="line"></div>
+        </div>
         <div class="activ">
             <a href="#"><img class="hobbi" src="/img/cabin.png"></a>
             <a href="#"><img class="hobbi" src="/img/cake.png"></a>
@@ -28,7 +46,15 @@
     </nav>
     <main>
         <h2 class="cabeza">ABOUT</h2>
-        <h1 class="estrella">&#9733;</h1>
+        <div class="sep">
+            <div class="line2"></div>
+            <div>
+                <span class="line"></span>
+                <span class="estrella">&#9733;</span>
+                <span class="line"></span>
+            </div>
+            <div class="line2"></div>
+        </div>
         <div>
             <P>freelancer is a free Bootstrap theme created by start Bootstrap.The download includes the complete source files including HTML,CSS and 
              Javascript as well as optional SASS stylesheets for easy customization.</P>
@@ -39,7 +65,11 @@
     </main>
     <fieldset>
         <h1 class="cabeza">CONTACT ME</h1>
-        <h2 class="estrella">&#9733;</h2>
+        <div class="sep">
+            <div class="line"></div>
+            <p class="estrella">&#9733;</p>
+            <div class="line"></div>
+        </div>
         <form action="recogida.php" method="get">
             <form action="recogida.php" method="get">
                 <label for="1">Name<input type="text" id="1" name="Nombre"/></label>
@@ -51,20 +81,27 @@
         </form>
     </fieldset>
     <footer>
-    <div class="row">
-    <div class="col-md-4">
-     <h5>Location</h5>
-    <p>2215 Daniel Drive<br>Clark, MO 65423</p>
-    </div>
-    <div class="col-md-4">
-      <h5>Around the web</h5>
-    <div class="social links">
-        <a href="#"><img src="facebook-icon.png"
-         alt="Facebook"></a>
-                    <a href="#"><img
-     src="twiter-icon.png" alt="Twiter"></a>
-                    <a href="#"><img
-
+                <div class="fotsec">
+                    <h5>Location</h5>
+                    <p>2215 John Daniel Drive, Clark, MO 65243</p>
+                </div>
+                <div class="fotsec">
+                    <h5>Around the Web</h5>
+                    <div>
+                        <a href="#"><img src="img/FB.png" alt="Facebook"></a>
+                        <a href="#"><img src="img/Tw.png"alt="Twitter"></a>
+                        <a href="#"><img src="img/IN.png"alt="LinkedIn"></a>
+                        <a href="#"><img src="img/DB.png"alt="Dribble"></a>
+                    </div>
+                </div>
+                <div class="fotsec">
+                    <h5>About Freelancer</h5>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="7">Start Bootstrap.</a></p>
+                </div>
+            </div>
     </footer>
+    <div class="fotbot">
+        <p>Copyright &copy; Your Website 2024</p>
+    </div>
     </body>
 </html>
